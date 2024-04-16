@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./img/Fundo.png");
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+header {
+    background-color: #2f3542;
+}
+
+footer {
+    background-color: #2f3542;
+}
+
+.nav-link {
+    font-weight: bold;
+    background-color: #0091FF;
+    border-radius: 50px;
+    margin-left: 20px;
+
+    color: aliceblue;
+}
+
+.nav-link:hover {
+    background-color: #3742fa;
+    color: aliceblue;
+
+}
+
+#grid {
+    margin-top: 16px;
+}
+
+
+.preco {
+
+    font-size: 20px;
+    color: #ffa502;
+}
+
+.btn-primary:hover {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #ffa502;
+    transition: all 0.3s ease;
+}
